@@ -33,7 +33,9 @@ When Jupiter’s mass is artificially increased, the system becomes unstable and
 
 The method uses two embedded approximations (4th and 5th order) to estimate the local error:
 
-$\epsilon = \left\| y^{(5)} - y^{(4)} \right\|$
+$$
+\epsilon = \left\| y^{(5)} - y^{(4)} \right\|
+$$
 
 and dynamically adjust the time step.
 
